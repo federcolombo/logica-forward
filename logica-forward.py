@@ -105,5 +105,3 @@ print(test_results)
 test_months = [1, 2, 3, 4]  # Enero, Febrero, Marzo, Abril
 test_results = {'Sorgo ' + 'Fw ' + meses[month] + '-25': determinar_campana('Sorgo', month, 2025) for month in test_months}
 print(test_results)
-
-
